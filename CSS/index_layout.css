@@ -42,15 +42,19 @@
    .portfolioimgsl {
         width:12em;
         height:8em;
-        margin: 1em;
+        margin-left: 1.7em;
+        margin-bottom:1.4em;
+        margin-top:1em;
     }
 
     .portfolioimgsr {
         width:12em;
         height:8em;
-        margin: 1em;
+        margin-top: 1em;
+        margin-left:1.8em;
+        margin-bottom:1.4em;
     }
-
+    
     .wordlink {
         text-decoration:none;
         color:rgb(143, 143, 143);
@@ -61,7 +65,6 @@
     }
 
     a {
-        text-decoration-color:rgb(255, 153, 0);
         color:rgb(255, 153, 0);
     }
 
@@ -272,6 +275,23 @@
         color:rgb(124, 124, 124);
         flex: 1 1 307;
         margin:20px;
+    }
+
+    a p {
+        font-size:40px;
+        font-family:'Open Sans', sans-serif;
+        text-align:center;
+        color:rgb(124, 124, 124);
+        flex: 1 1 307;
+        margin:20px;
+    }
+
+    a p:active {
+        box-shadow: 0px 0px 5px  rgba(0, 0, 0, 0.301);
+        background-color:rgb(233, 233, 233);
+        text-decoration:none;
+        color:white;
+        text-shadow; 
     }
 
     div.main > h2 {
