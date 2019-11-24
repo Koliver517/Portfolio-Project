@@ -1,10 +1,20 @@
 /*MOBILE*/@media only screen and (min-width:307px) and (max-width:600px){
-    @import  url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-
-    @font-face {
-        font-family: 'Vision-Heavy';
-        src: url('FONTS/Vision-Heavy.otf');
-    }
+/* FONT LIBRARY
+font-family: 'Bevan', cursive;
+font-family: 'Finger Paint', cursive;
+font-family: 'Kelly Slab', cursive;
+font-family: 'Limelight', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Megrim', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Nova Mono', monospace;
+font-family: 'Offside', cursive;
+font-family: 'Oleo Script Swash Caps', cursive;
+font-family: 'Overlock', cursive;
+font-family: 'Plaster', cursive;
+font-family: 'Ribeye Marrow', cursive;
+font-family: 'Kumar One Outline', cursive;
+*/
 
     .grid-container
     {
@@ -70,11 +80,9 @@
 
     h2 {
         font-size:26px;
-        font-family:'Open Sans', sans-serif;
         text-align:center;
         letter-spacing:1px;
-        color:rgb(61, 61, 61);
-        flex: 1 1 307;
+        font-family: 'Nova Mono', monospace;
     }
 
     .cen {
@@ -84,7 +92,6 @@
 
     .footh2 {
         font-size:26px;
-        font-family:'Open Sans', sans-serif;
         text-align:left;
         padding-left:30px;
         letter-spacing:1px;
@@ -94,7 +101,6 @@
 
     .footh3 {
         font-size:20px;
-        font-family:'Open Sans', sans-serif;
         text-align:left;
         padding-left:30px;
         color:rgb(129, 129, 129);
@@ -123,7 +129,6 @@
      }
 
      h1 {
-         font-family:'Open Sans', sans-serif;
          padding:5px 0px 0px 30px;
          flex: 1 1 307;
      }
@@ -253,7 +258,6 @@
         text-decoration:none;
         border-radius: 0px 20px 0px 20px;
         color:#f0f0f0;
-        font-family:'Vision-Heavy';
         font-style:bold;
         letter-spacing:1px;
         display:flexbox;
@@ -262,7 +266,6 @@
 
     h3 {
         font-size:25px;
-        font-family:'Open Sans', sans-serif;
         text-align:center;
         color:rgb(97, 97, 97);
         flex: 1 1 307;
@@ -270,7 +273,6 @@
 
     p {
         font-size:15px;
-        font-family:'Open Sans', sans-serif;
         text-align:center;
         color:rgb(124, 124, 124);
         flex: 1 1 307;
@@ -279,7 +281,6 @@
 
     a p {
         font-size:40px;
-        font-family:'Open Sans', sans-serif;
         text-align:center;
         color:rgb(124, 124, 124);
         flex: 1 1 307;
@@ -291,12 +292,11 @@
         background-color:rgb(233, 233, 233);
         text-decoration:none;
         color:white;
-        text-shadow; 
     }
 
     div.main > h2 {
         letter-spacing:10px;
-        background:linear-gradient(rgb(255, 157, 0), rgb(255, 145, 0));
+        background:linear-gradient(rgb(27, 126, 255), rgb(11, 106, 214));
         color:rgb(255, 255, 255);
 
     }
