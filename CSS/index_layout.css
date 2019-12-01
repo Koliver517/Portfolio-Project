@@ -311,6 +311,7 @@ font-family: 'Kumar One Outline', cursive;
         grid-gap: 0;
         display: flexbox;
         overflow-wrap: normal;
+        background-color:green;
         height: 267px;
         
         }
@@ -326,7 +327,7 @@ font-family: 'Kumar One Outline', cursive;
             grid-row-start: 1;
             grid-row-end: 2;
             z-index: 5;
-            background-color:rgb(254, 254, 255);
+            background-color:rgb(60, 255, 0);
             width: 100%;
             height: 100%;
             color:#f2f2f2;
@@ -354,7 +355,7 @@ font-family: 'Kumar One Outline', cursive;
         grid-column-end:2;
         grid-row-start: 4;
         grid-row-end: 5;
-        background-color:rgb(14, 31, 54);
+        background-color:rgb(234, 0, 255);
         }
     
         .main{
@@ -362,7 +363,7 @@ font-family: 'Kumar One Outline', cursive;
             grid-column-end:2;
             grid-row-start: 7;
             grid-row-end: 8;
-            background-color:#ffffffbd;
+            background-color:#ff0000bd;
             display:flexbox;
             margin:1rem;
             color:#353535;
@@ -598,7 +599,9 @@ font-family: 'Kumar One Outline', cursive;
         grid-gap: 0;
         display: flexbox;
         overflow-wrap: normal;
-        height: 267px;
+        height: 9000px;
+        width:auto;
+        background-color:red;
         
         }
         
@@ -630,7 +633,7 @@ font-family: 'Kumar One Outline', cursive;
         width: auto;
         height: auto;
         text-decoration:none;
-        font-size:2.3rem;
+        font-size:10rem;
         text-align:center;
         display:flexbox;
         }
@@ -662,8 +665,8 @@ font-family: 'Kumar One Outline', cursive;
             grid-column-end: 2;
             grid-row-start: 8;
             grid-row-end: 11;
-            background-color: #353535;
-            color:#ffffff;
+            background-color: #9c0000;
+            color:#ff0000;
             display:flexbox;
         }
     
@@ -871,7 +874,7 @@ font-family: 'Kumar One Outline', cursive;
         /*HTML STYLES*/
         html
         {
-        background-color:rgba(68, 68, 68, 0.075);
+        background-color:rgb(255, 0, 0);
         scroll-behavior:smooth;
         }
     
