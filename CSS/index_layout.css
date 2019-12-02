@@ -1,4 +1,4 @@
-/*MOBILE*/@media only screen and (min-width:307px) and (max-width:600px){
+/*MOBILE*/@media only screen and (max-width:1024px){
 /* FONT LIBRARY
 font-family: 'Bevan', cursive;
 font-family: 'Finger Paint', cursive;
@@ -38,7 +38,7 @@ font-family: 'Kumar One Outline', cursive;
         grid-row-start: 1;
         grid-row-end: 2;
         z-index: 5;
-        background-color:rgb(254, 254, 255);
+        background-color:rgb(255, 0, 21);
         width: 100%;
         height: 100%;
         color:#f2f2f2;
@@ -87,7 +87,7 @@ font-family: 'Kumar One Outline', cursive;
         grid-column-end: 2;
         grid-row-start: 8;
         grid-row-end: 11;
-        background-color: #353535;
+        background-color: #ff0000;
         color:#ffffff;
         display:flexbox;
     }
@@ -302,7 +302,7 @@ font-family: 'Kumar One Outline', cursive;
 
 }
 
-/*TABLET*/@media only screen and (min-width:601px) and (max-width:1024px){
+/*TABLET*/@media only screen and (min-width:1025px) and (max-width:1448){
 
     /*LAYOUT*/
     .grid-container {
@@ -590,7 +590,7 @@ font-family: 'Kumar One Outline', cursive;
         }
 }
 
-/*DESKTOP*/@media only screen and (min-width:1025px){
+/*DESKTOP*/@media only screen and (min-width:1449){
 
     /*LAYOUT*/
     .grid-container {
